@@ -1,5 +1,5 @@
 # MultivariateBernoulli
-A subcopula characterization of dependence in the Multivariate Bernoulli Distribution
+A subcopula characterization of dependence in the Multivariate Bernoulli Distribution.
 
 > Author: Arturo Erdely
 
