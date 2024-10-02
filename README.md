@@ -23,3 +23,8 @@ A subcopula characterization of dependence for the Multivariate Bernoulli Distri
    ```julia
    include("Examples.jl")
    ```
+7. Execute `MBerMenu()` to display the list of loaded functions from file `MultivariateBernoulli.jl` and check the documentation for each one, for example:
+   ```julia
+   MBerMenu()
+   @doc MBerDep
+   ```
