@@ -1,6 +1,6 @@
 ### Multivariate Bernoulli Distribution
 ### Author: Dr. Arturo Erdely
-### Version: 2024-09-29
+### Version: 2024-10-202
 ### Requires: `Distributions` package
 
 using Distributions 
@@ -502,13 +502,13 @@ end
 """
     MBerMenu() 
 
-Displays de names of the main functions in `MultBernoulli.jl`
+Displays de names of the main functions in `MultivariateBernoulli.jl`
 """
 function MBerMenu()
     @info "MBerDep  MBerMargin  MBerCond  MBerSim  MBerBayes  MBerEst  MBerInf  MBerMenu  binint  intbin  powerset  subconj"
-    println("--> Depends on `Distributions` package")
+    println("--> Depends on Distributions.jl package")
 end
 
 
-println("Execute `MBerMenu()` to display the list of loaded functions:")
+println("Execute MBerMenu() to display the list of loaded functions:")
 MBerMenu()

@@ -1,6 +1,6 @@
 ### Examples for Multivariate Bernoulli Distribution
 ### Author: Dr. Arturo Erdely
-### Version: 2024-09-29
+### Version: 2024-10-02
 
 begin
     using Distributions, Plots, LaTeXStrings, Random, CSV, DataFrames
@@ -200,3 +200,6 @@ begin
     println("P(death) = ", pd)
     println("P(death|hospital, COPD, immunosup, cardio, CKD, age 65+) = ", pdcond)
 end
+
+println()
+println("Execute MBerMenu() to display the list of loaded functions from file MultivariateBernoulli.jl")
