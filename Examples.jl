@@ -118,10 +118,10 @@ end
 
 ### Multivariate Bernoulli examples
 
-## Example 1 revisited
+## Subsection 5.2.1
 
 begin
-    println("Example 1 revisited")
+    println("Example Subsection 5.2.1")
     pp = [0.15,0.21,0.21,0.03,0.21,0.03,0.03,0.13];
     X = MBerDep(pp);
     println("Parameters:")
@@ -132,10 +132,10 @@ begin
 end
 
 
-## Example 3 
+## Subsection 5.2.2
 
 begin                                                           
-    println("Example 3")
+    println("Example 5.2.2")
     p000 = 0.1                                                  
     p001, p010, p100 = 0.2, 0.1, 0.05                           
     p011, p101, p110 = 0.2, 0.15, 0.1                           
@@ -165,10 +165,10 @@ begin
 end
 
 
-## Example 4: COVID-19 data
+## Subsection 5.2.3: COVID-19 data
 
 begin
-    println("Example 4: COVID-19 data")
+    println("Example Subsection 5.2.3: COVID-19 data")
     df = CSV.read("covid2020.csv", DataFrame)
     show(describe(df), allrows = true)
     data = zeros(Int, size(df))
