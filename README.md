@@ -3,7 +3,7 @@ A subcopula characterization of dependence for the Multivariate Bernoulli Distri
 
 > Author: Arturo Erdely
 
-> Preprint: [arXiv](https://arxiv.org/pdf/2410.01133)
+> Published article: [Journal of Statistical Theory and Applications](https://rdcu.be/eX8af)
 
 ### Instructions for reproducibility
 
